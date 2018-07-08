@@ -21,7 +21,7 @@ After clicking on a URL, an `alert` appears with further information
 
 The Grace Hopper image is found here:
 
-![Grace Hopper](./img/grace_hopper.png)
+![Grace Hopper](./img/grace_hopper.jpg)
 
 -----
 
