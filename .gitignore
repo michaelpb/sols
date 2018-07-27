@@ -61,4 +61,4 @@ typings/
 .next
 
 # Ignore .map files since these represent "solutions"
-.map
+*.map
