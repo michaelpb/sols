@@ -1,0 +1,67 @@
+body {
+    font-size: 24pt;
+    background: url('https://i.imgur.com/rTqAc96.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* Here I set up the sidepanel that has the gradient sunset background image.  */
+.sidepanel {
+    background: url('https://i.imgur.com/rTqAc96.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 39pt;
+    color: black;
+    font-weight: bold;
+}
+
+/* Set up main content to the right */
+.rightpanel {
+    background: white;
+}
+
+/* I got this gradient from: https://uigradients.com/ */
+.caption {
+    background: #ffeeee; /* fallback for old browsers */
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Adding custom color scheme to Bootstrap nav-links buttons */
+.red-nav .nav-link {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.red-nav .nav-link.active {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* face recognition stuff */
+
+.image-face-wrapper {
+    position: relative;
+}
+
+.face {
+    position: absolute;
+    border: 3px solid green;
+    opacity: 0.3;
+}
+
+.face:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+}
